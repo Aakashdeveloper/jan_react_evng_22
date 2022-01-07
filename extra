@@ -54,3 +54,76 @@ using component base structure
 > SPA
 > open source 
 
+////
+Npm
+> Node Package Manager
+> All the third part packages require present here
+>183027
+
+Json
+> JavaScript Object Notation
+> Way to present your data
+> Key Value Pair
+[
+    {
+        'name':'Nikita',
+        'city':'Paris'
+    },
+    {
+        'name':'Amit',
+        'city':'Delhi'
+    }
+]
+
+///////////////
+Step to generate react app
+/////////////
+
+/// window //
+##one time step##
+> open cmd as administrator
+> npm i -g create-react-app
+
+##Next Every Time You Need New App##
+> open the cmd
+> go inside the folder using cd (expample> cd Desktop/pwa)
+> create-react-app appname
+
+/// mac/linux //
+
+##one time step##
+> open terminal
+> sudo npm i -g create-react-app
+
+##Next Every Time You Need New App##
+> open terminal
+> go inside the folder using cd (expample> cd Desktop/pwa)
+> create-react-app appname
+
+//////shortcut//////
+> open cmd/terminal
+> go inside the folder
+> npx create-react-app appname
+
+
+##step to run the app##
+> open cmd/terminal
+> go inside the app folder
+> npm start
+
+
+>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<
+Package.json
+> first file of my application
+> entry point to my app
+> all the commands (start, build, test)
+> all the packages you install
+> meta data(name,version, description)
+
+## Step to generate package.json ##
+*nodeJs must be install in laptop
+> open cmd/terminal
+> go inside the app folder
+> npm init
+> answer all question
+> type yes
