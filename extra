@@ -127,3 +127,14 @@ Package.json
 > npm init
 > answer all question
 > type yes
+
+
+## Step to install packages ##
+> go inside the app folder
+> npm i packagename / npm install packagename 
+
+package-lock > dependency tree
+.gitignore > all this we dont want ot push to github 
+Readme.md > Detail Description
+Src > contains all the script
+public > html/css

@@ -11,5 +11,9 @@
     "react"
   ],
   "author": "nareshit",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-router-dom": "^6.2.1",
+    "react-slick": "^0.28.1"
+  }
 }
