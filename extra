@@ -138,3 +138,17 @@ package-lock > dependency tree
 Readme.md > Detail Description
 Src > contains all the script
 public > html/css
+
+head> all the links(js, css) and title
+body> all the content visible to the user
+
+///////////////
+block level
+> they always start from new line
+> they consume the whole of screen
+> p div section
+
+inline 
+> they start in same line
+> they consume the space what is required
+> span a img
