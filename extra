@@ -152,3 +152,36 @@ inline
 > they start in same line
 > they consume the space what is required
 > span a img
+
+//////
+inline
+styletag
+stylesheet
+
+inline > styletag > stylesheet
+div
+
+inline{
+    color:red;
+    font-size:30px
+}
+
+styletag{
+    color:orange;
+    text-align:center;
+    font-weight:bold
+}
+
+stylesheet{
+    text-align:right;
+    font-weight:35px;
+    border-color:green;
+}
+
+div{
+    color:red;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    border-color:green;
+}
