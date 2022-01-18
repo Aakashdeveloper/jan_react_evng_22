@@ -185,3 +185,8 @@ div{
     font-weight:bold;
     border-color:green;
 }
+
+// target Element
+tagname > h1, p a
+id(#) > use to target unique Element
+class(.) > use to target multiple Element
