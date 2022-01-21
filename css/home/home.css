@@ -142,3 +142,62 @@ footer{
     text-align:center;
     font-size:20px
 }
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:#87ceeb
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:#a2f1d7
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:#f5f0a6
+    }
+    #heading{
+        margin-top:18%;
+    }
+    #dropdown{
+        margin-top:26%; 
+        margin-left:32%; 
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:#f5c3a6
+    }
+    #heading{
+        margin-top:20%;
+    }
+    #dropdown{
+        margin-top:32%; 
+        margin-left:32%; 
+    }
+    .tileContainer{
+        width:45%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:#d7bef6
+    }
+    .tileContainer{
+        width:47%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:#fcbfc4
+    }
+    .tileContainer{
+        width:70%;
+    }
+}
