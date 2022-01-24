@@ -3,12 +3,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <style>
-            .crarouselImg{
-                height:400px !important;
-                width:100%
-            }
-        </style>
+        <link href="boot.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
@@ -46,6 +42,90 @@
                 <button class="btn btn-warning">Click</button>
                 <button class="btn btn-danger">Click</button>
                 <button class="btn btn-info">Click</button>
+            </div>
+            <hr/>
+            <span class="glyphicon glyphicon-edit"></span>
+            <span class="glyphicon glyphicon-trash"></span>
+            <i class="fab fa-amazon"></i>
+
+            <div class="media">
+              <div class="media-left">
+                <img src="nightlife.png" class="media-object" style="width:200px">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">John Doe</h4>
+                <p>
+                  Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-body">
+                <h4 class="media-heading">John Doe</h4>
+                <p>
+                  Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+              </div>
+              <div class="media-right">
+                <img src="nightlife.png" class="media-object" style="width:200px">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="first"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="second"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="third"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="fourth"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="fifth"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="sixth"></div>
+              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" id="seventh"></div>
+            </div>
+
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3>Students</h3>
+              </div>
+              <div class="panel-body">
+                <div class="form-group">
+                  <label for="fname">FirstName</label>
+                  <input id="fname" class="form-control"/>
+                </div>
+                <div class="form-group">
+                  <label for="lname">LastName</label>
+                  <input class="form-control" id="lname"/>
+                </div>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="fname">FirstName</label>
+                    <input id="fname" class="form-control"/>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="lname">LastName</label>
+                    <input class="form-control" id="lname"/>
+                  </div>
+                </div>
+                <button class="btn btn-success">Submit</button>
+              </div>  
             </div>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
