@@ -1,0 +1,30 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Header';
+import Footer from './component/Footer';
+
+
+const App = () => {
+    return (
+        <div>
+            <Header/>
+            <h1>Hiiii</h1>
+            <h2>Developer Funnel</h2>
+            <Footer/>
+        </div>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'));
+
+/*
+function App(){
+    return (
+        <div>
+            <h1>Hiiii </h1>
+            <h2>Developer Funnel</h2>
+        </div>
+    )
+}
+
+*/

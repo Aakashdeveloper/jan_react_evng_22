@@ -223,3 +223,36 @@ xxl > 1400px
 
 
 bootstrap5
+
+//////
+classComponent
+> logical Components
+> All api call, code logic as well as display
+> can maintain state
+
+functionComponent
+> dumb components
+> Mainly Use for display Purposes
+> Cannot maintain State
+
+
+
+hooksComponent
+
+//////
+function add(a,b){
+    return a+b
+}
+
+const add = (a,b) =>{
+    return a+b
+}
+
+
+
+function add(a,b){
+    return a,b
+}
+
+add(1,2)
+2
