@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <Header/>
             <h1>News App</h1>
-            <Footer/>
+            <Footer year="2022"/>
         </>
     )
 }

@@ -248,11 +248,20 @@ const add = (a,b) =>{
     return a+b
 }
 
-
-
 function add(a,b){
     return a,b
 }
 
 add(1,2)
 2
+
+/////
+State
+> state act like a local variable
+> any data interaction will happen through state
+> we can update the value of state
+
+props
+> Help to transfer data between the component
+> we cannot update the value of props
+> Data can be passed between 2 nested component only
