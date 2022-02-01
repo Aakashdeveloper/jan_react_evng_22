@@ -37,10 +37,10 @@ Basic React Native- 1
 React-Redux - 1
 React-Redux - 1
 React-PWA - 1
+Testing Jest Enzime
 ///////Walkthrough///////
 React-Saga -1
 React-with-typescript-1
-Testing Jest Enzime
 --------NOT Backend--------------
 API
 GraphQL
@@ -265,3 +265,43 @@ props
 > Help to transfer data between the component
 > we cannot update the value of props
 > Data can be passed between 2 nested component only
+
+
+///map
+var a = [2,3,5,6,8,9]
+a.map((data) => {return data*2})
+(6) [4, 6, 10, 12, 16, 18]
+var a = [2,3,5,6,8,9]
+a.map((data) => {return `<p>${data*2}</p>`})
+(6) ['<p>4</p>', '<p>6</p>', '<p>10</p>', '<p>12</p>', '<p>16</p>', '<p>18</p>']
+
+///filter
+/// indexof
+
+//es5
+var a = 10
+var b = "my age is" +a
+b
+'my age is 10'
+
+//es6
+var a = 10
+var b = `my age is ${a}`
+b
+'my age is 10'
+
+
+
+parent => child (Just props)
+child => Parent (props with function)
+
+
+child (we will call the function)
+parent (we will define the function)
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)

@@ -12,12 +12,13 @@ class Header extends Component {
     }
 
     handleChange = (event) => {
-        console.log(event.target.value)
-        this.setState({keywords:event.target.value})
+        // console.log(event.target.value)
+        this.setState({keywords:event.target.value?event.target.value:'User Input Here'})
+        this.props.userText(event.target.value)
     }
 
     render(){
-        console.log("inside render")
+        // console.log("inside render")
         return(
             <Fragment>
                 <header>
