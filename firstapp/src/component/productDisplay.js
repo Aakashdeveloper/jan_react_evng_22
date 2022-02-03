@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const Product = (props) => {
 
+    const [test, aakash] = useState(10)
+
+
+    
     const renderProduct = props.prodData.map((item) => {
         return(
             <div className="col">
+                {test}
                <div className="card" style={{height:'350px'}}>
                    <img src={item.image} className="card-mg-top" style={{height:'100px',width:'70%',marginLeft:'10%'}}/>
                    <div className="card-body">
