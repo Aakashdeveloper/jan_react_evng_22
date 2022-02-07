@@ -3,6 +3,7 @@ https://nodejs.org/en/ > Install
 https://github.com/ > create account
 https://github.com/Aakashdeveloper > Follow
 https://git-scm.com/downloads > Install
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
 //Extensions
 > TabNine
@@ -324,3 +325,40 @@ a.indexOf('Dubai')
 -1
 a.indexOf('Paris')
 -1
+
+////
+params
+> pass after /
+> we need to define in route
+> use for small data
+
+queryparams
+> pass after ?
+> no need to define
+> use for large data
+
+///Default props
+> History (Redirection)
+> Location (for Queryparams)
+> Match (for params)
+
+
+(get) restaurants>         https://zomatoajulypi.herokuapp.com/restaurants
+(get) restwrtcity >        https://zomatoajulypi.herokuapp.com/restaurant?stateId=1
+(get) hoteldetails >       http://zomatoajulypi.herokuapp.com/details/1
+(get) quickSearch>         https://zomatoajulypi.herokuapp.com/quicksearch
+(get) onbasisofMeal >      https://zomatoajulypi.herokuapp.com/restaurant?mealtype_id=
+
+(get) cuisinefilter >      https://zomatoajulypi.herokuapp.com/filter/4?cuisine=1
+
+(get) costfilter >         https://zomatoajulypi.herokuapp.com/filter/1?hcost=1000&lcost=500
+
+(get) cityname >           https://zomatoajulypi.herokuapp.com/location
+(get) menu >               https://zomatoajulypi.herokuapp.com/menu/1
+
+(post) orderspage >        http://zomatoajulypi.herokuapp.com/menuItem
+                           body [1,4,5]
+(get) allorder>            
+(post)placeOrder >         
+
+https://developerpayment.herokuapp.com/paynow
