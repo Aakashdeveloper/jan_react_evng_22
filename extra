@@ -362,3 +362,7 @@ queryparams
 (post)placeOrder >         
 
 https://developerpayment.herokuapp.com/paynow
+
+
+fetch
+promise

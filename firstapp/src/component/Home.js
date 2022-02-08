@@ -10,7 +10,8 @@ class Home extends Component {
 
         this.state={
             productData:JSON,
-            filteredData:JSON
+            filteredData:JSON,
+            secondFilterData:JSON
         }
     }
 
@@ -23,6 +24,20 @@ class Home extends Component {
         })
         this.setState({filteredData:output})
     }
+
+    /*
+    filter2Product = (keyword) => {
+        let data
+        if(a == ""){
+            data = this.state.productData
+        }else{
+            data = this.state.filteredData
+        }
+        var output = data.filter((item) => {
+            return (item.name.toLowerCase().indexOf(keyword.toLowerCase())>-1) 
+        })
+        this.setState({secondFilter:output})
+    }*/
 
     render(){
         return (
