@@ -1,10 +1,6 @@
 import React,{useState} from 'react';
 
 const Product = (props) => {
-
-    const [test, aakash] = useState(10)
-
-
     
     const renderProduct = props.prodData.map((item) => {
         return(
