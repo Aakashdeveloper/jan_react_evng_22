@@ -367,3 +367,5 @@ https://developerpayment.herokuapp.com/paynow
 
 fetch
 promise
+
+var a = "test=hi"
