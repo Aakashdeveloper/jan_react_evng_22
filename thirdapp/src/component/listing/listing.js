@@ -32,6 +32,7 @@ class Listing extends Component{
 
     componentDidMount(){
         let mealId = this.props.match.params.id ?this.props.match.params.id:1
+        sessionStorage.setItem('mealId',mealId)
         axios.get(`${restUrl}${mealId}`)
         .then((res) => {this.setState({restaurantList:res.data})})
     }
