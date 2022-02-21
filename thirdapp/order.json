@@ -39,6 +39,16 @@
       "address": "Hno12",
       "menuItem": "16,18",
       "phone": "76767436"
+    },
+    {
+      "id": 39080,
+      "hotel_name": "Domino's Pizza",
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "cost": 577,
+      "address": "Hno12",
+      "menuItem": "1,2,3",
+      "phone": "7678678"
     }
   ]
 }
