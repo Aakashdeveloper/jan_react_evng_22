@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import './placeOrder.css';
-import Header from '../../header';
 
 
 const url = "http://zomatoajulypi.herokuapp.com/menuItem";
@@ -12,10 +11,9 @@ class PlaceOrder extends Component {
         this.state={
             id:Math.floor(Math.random()*100000),
             hotel_name:this.props.match.params.restName,
-            name:sessionStorage.getItem('userInfo')?sessionStorage.getItem('userInfo').split(',')[0]:'',
-            email:sessionStorage.getItem('userInfo')?sessionStorage.getItem('userInfo').split(',')[1]:'',
+            name:'',
+            email:'',
             cost:0,
-            phone:sessionStorage.getItem('userInfo')?sessionStorage.getItem('userInfo').split(',')[2]:'',
             address:'Hno12',
             menuItem:''
         }
@@ -55,21 +53,7 @@ class PlaceOrder extends Component {
     }
 
     render(){
-        if(!sessionStorage.getItem('userInfo')){
-            return(
-
-                <div>
-                    <Header/>
-                    <center>
-                        <h2>Login First To Place Booking</h2>
-                    </center>
-                    
-                </div>
-            )
-        }
         return(
-            <>
-            <Header/>
             <div className="container">
                 <hr/>
                 <div className="panel panel-primary">
@@ -110,7 +94,6 @@ class PlaceOrder extends Component {
                     </div>  
                 </div>
             </div>
-            </>
         )
     }
 

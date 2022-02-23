@@ -49,36 +49,6 @@
       "address": "Hno12",
       "menuItem": "1,2,3",
       "phone": "7678678"
-    },
-    {
-      "id": 7540,
-      "hotel_name": "Domino's Pizza",
-      "name": "Anjali",
-      "email": "anjali@gmail.com",
-      "cost": 478,
-      "phone": "76767656",
-      "address": "Hno12",
-      "menuItem": "2,3"
-    },
-    {
-      "id": 12687,
-      "hotel_name": "New Udupi Grand",
-      "name": "Anjali",
-      "email": "anjali@gmail.com",
-      "cost": 160,
-      "phone": "76767656",
-      "address": "Hno12",
-      "menuItem": "67,69"
-    },
-    {
-      "id": 8236,
-      "hotel_name": "Domino's Pizza",
-      "name": "Anchal",
-      "email": "anchal@gmail.com",
-      "cost": 348,
-      "phone": "436464566",
-      "address": "Hno12",
-      "menuItem": "1,3"
     }
   ]
 }
