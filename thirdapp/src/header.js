@@ -18,6 +18,8 @@ class Header extends Component{
         sessionStorage.removeItem('ltk')
         sessionStorage.removeItem('userInfo')
         sessionStorage.removeItem('uName')
+        sessionStorage.removeItem('uImg')
+        sessionStorage.setItem('loginStatus',false);
         this.setState({userData:''})
         this.props.history.push('/')
     }
@@ -39,6 +41,7 @@ class Header extends Component{
                 let data = this.state.userData;
                 let outputArray = [data.name, data.email, data.phone, data.role];
                 sessionStorage.setItem('userInfo',outputArray);
+                sessionStorage.setItem('loginStatus',true);
                 return(
                     <>
                         <Link className="btn btn-primary" to="/"><span className="glyphicon glyphicon-user"></span> Hi {data.name}</Link>
@@ -106,6 +109,7 @@ class Header extends Component{
                     let img = data.avatar_url
                     sessionStorage.setItem("uName",username)
                     sessionStorage.setItem("uImg",img)
+                    sessionStorage.setItem('loginStatus',true);
                     this.setState({username:username,userImg:img})
                 })
             }
