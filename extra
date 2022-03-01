@@ -22,16 +22,19 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
+Deployment
+-> MERN
+-> ReactPy
+-> Netlify
+-> heroku
 ///////////////////
 React_hooks -1
 Github
-Deployment
--> MERN
+
 -> Aws
--> heroku
 -> Docker
 -> Nginx
--> Netlify
+
 HOC
 React-GraphQL - 1 
 Basic React Native- 1
