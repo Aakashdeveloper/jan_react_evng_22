@@ -53,7 +53,7 @@ class Search extends Component {
         return(
             <div className="search">
                 <div id="logo">
-                    <span>D!</span>
+                    <span>TF!</span>
                 </div>
                 <div id="heading">
                     Search Place Near To You

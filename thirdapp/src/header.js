@@ -70,7 +70,7 @@ class Header extends Component{
         return(
             <div className="header">
                 <div id="brand">
-                    Developer Food
+                    Techno Food
                 </div>
                 <div>
                     <Link to="/">Home</Link>
