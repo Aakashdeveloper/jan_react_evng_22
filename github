@@ -10,3 +10,9 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+git checkout -b branchname
+git push -u origin homepage
+
+
+come to main branch > take pull => make feature branch => raise Pr => Merge
