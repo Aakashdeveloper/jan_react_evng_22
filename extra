@@ -31,8 +31,8 @@ Deployment
 -> Docker
 -> Nginx
 Github
-///////////////////
 React_hooks -1
+///////////////////
 HOC
 React-GraphQL - 1 
 Basic React Native- 1
@@ -430,3 +430,5 @@ npx json-server --watch order.json --port 7890
 https://www.npmjs.com/package/formidable
 
 https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps
+
+https://www.youtube.com/c/DeveloperFunnel/videos
