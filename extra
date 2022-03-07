@@ -32,8 +32,8 @@ Deployment
 -> Nginx
 Github
 React_hooks -1
-///////////////////
 HOC
+///////////////////
 React-GraphQL - 1 
 Basic React Native- 1
 React-Redux - 1
@@ -432,3 +432,11 @@ https://www.npmjs.com/package/formidable
 https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps
 
 https://www.youtube.com/c/DeveloperFunnel/videos
+
+HOC
+> this will take an argument as component and data
+and return component with data
+
+////
+generate react native 
+> npx create-react-native-app appname
