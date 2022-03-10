@@ -1,12 +1,36 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {useState,useEffect} from 'react';
+import { StyleSheet, Text, View, Button, Alert } from 'react-native';
+import DisplayComponent from './component/displayList';
 
-export default function App() {
+const url = "https://zomatoajulypi.herokuapp.com/restaurant"
+
+function App() {
+
+  const [title,updateTitle] = useState('Developer Funnel React Native')
+  const [rest, setRest] = useState();
+
+  useEffect(() => {
+    fetch(url)
+    .then((res) => res.json())
+    .then((data) => {
+      setRest(data)
+    })
+  },[])
+
   return (
     <View style={styles.container}>
-      <Text>Developer Funnel app!</Text>
-      <StatusBar style="auto" />
+      <Text>{title}</Text>
+      
+      <Button
+        title="Press me"
+        color="#f194ff"
+        onPress={() => {updateTitle('Title After Click')}} />
+        <Button
+        title="Press me"
+        onPress={() => Alert.alert('Simple Button pressed')}
+      />
+      <DisplayComponent restList={rest}/>
+      
     </View>
   );
 }
@@ -19,3 +43,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
+export default App;
