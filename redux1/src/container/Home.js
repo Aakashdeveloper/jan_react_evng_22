@@ -6,7 +6,7 @@ import DisplayComponent from '../component/Display';
 class Home extends Component{
 
     //call action 
-    ComponentDidMount(){
+    componentDidMount(){
         this.props.dispatch(movieList())
     }
 
@@ -14,7 +14,7 @@ class Home extends Component{
         return(
             <div>
                 <h1>Redux</h1>
-                <DisplayComponent />
+                <DisplayComponent datalist = {this.props.myData}/>
             </div>
 
         )
