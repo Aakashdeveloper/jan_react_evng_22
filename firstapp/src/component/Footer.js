@@ -6,7 +6,7 @@ const Footer = (props)=>{
         <React.Fragment>
             <hr/>
             <center>
-                <h3>&copy; Developer Funnel {props.year}</h3>
+                <h3>&copy; Developers Funnel {props.year}</h3>
             </center>
         </React.Fragment>
     )
